@@ -1,0 +1,64 @@
+* {
+  font-family: Courier;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('background.jpg') no-repeat center center / cover;
+}
+.screen {
+  display: none;
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+}
+.screen.active { display: flex; }
+.card {
+  background: rgba(200, 75, 100);
+  padding: 32px;
+  text-align: center;
+}
+.error {
+  color: #ff66da;
+  margin-top: 12px;
+}
+.input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ff99dd;
+}
+.btn {
+  padding: 12px 20px;
+  width: 100%;
+}
+.btn-primary {
+  background: #ff99ff;
+  color: #663399;
+}
+.search-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.search-row .input { margin-bottom: 0; }
+.search-row .btn { width: auto; }
+.result-box {
+  background: #ffcced;
+  padding: 16px;
+  min-height: 120px;
+  color: #444;
+  white-space: pre-wrap;
+}
+.card.wide {
+  max-width: 640px;
+}
+.btn-success {
+  background: #ff33ff;
+  color: #ffffff;
+}
+.btn-danger {
+  background: #6600cc;
+  color: #ffffff;
+}

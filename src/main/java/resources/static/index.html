@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title>Fun-Student — Вход</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="loginScreen" class="screen active">
+    <div class="card">
+        <input id="emailInput" type="text" class="input" placeholder="Введите почту"/>
+        <button id="loginBtn" class="btn btn-primary">Войти</button>
+        <p id="loginError" class="error hidden"></p>
+    </div>
+</div>
+<div id="adminScreen" class="screen">
+    <div class="card wide">
+        <div class="admin-top">
+            <div class="admin-left">
+                <input id="adminNameInput" type="text" class="input"
+                       placeholder="Имя ученика"/>
+                <div class="btn-row">
+                    <button id="addStudentBtn" class="btn btn-success">Добавить</button>
+                    <button id="deleteStudentBtn" class="btn btn-danger">Удалить</button>
+                </div>
+            </div>
+            <div class="admin-right">
+                <div class="search-row">
+                    <input id="adminSearchInput" type="text" class="input"
+                           placeholder="Имя ученика"/>
+                    <button id="adminSearchBtn" class="btn btn-primary">Найти</button>
+                </div>
+                <div id="adminSearchResult" class="result-box small"></div>
+            </div>
+        </div>
+        <p class="block-label left">Все ученики:</p>
+        <div id="adminAllStudents" class="result-box small"></div>
+    </div>
+</div>
+<div id="teacherScreen" class="screen">
+    <div class="card wide">
+        <div class="search-row">
+            <input id="searchInput" type="text" class="input" placeholder="Имя ученика"/>
+            <button id="searchBtn" class="btn btn-primary">Найти</button>
+        </div>
+        <div id="searchResult" class="result-box"></div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
