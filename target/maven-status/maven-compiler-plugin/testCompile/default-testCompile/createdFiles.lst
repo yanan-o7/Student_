@@ -1,0 +1,9 @@
+com\example\student\configuration\AppInitializerTest.class
+com\example\student\service\impl\UserServiceImplTest.class
+com\example\student\service\impl\StudentServiceImplTest.class
+com\example\student\controller\StudentControllerTest.class
+com\example\student\mapper\UserMapperImplTest.class
+com\example\student\controller\AuthControllerTest.class
+com\example\student\exception\GlobalExceptionHandlerTest.class
+com\example\student\security\JwtServiceTest.class
+com\example\student\mapper\StudentMapperImplTest.class

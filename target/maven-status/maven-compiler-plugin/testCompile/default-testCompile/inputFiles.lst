@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\fun-student-master\src\test\java\com\example\student\configuration\AppInitializerTest.java
+C:\Users\user\Desktop\fun-student-master\src\test\java\com\example\student\controller\AuthControllerTest.java
+C:\Users\user\Desktop\fun-student-master\src\test\java\com\example\student\controller\StudentControllerTest.java
+C:\Users\user\Desktop\fun-student-master\src\test\java\com\example\student\exception\GlobalExceptionHandlerTest.java
+C:\Users\user\Desktop\fun-student-master\src\test\java\com\example\student\mapper\StudentMapperImplTest.java
+C:\Users\user\Desktop\fun-student-master\src\test\java\com\example\student\mapper\UserMapperImplTest.java
+C:\Users\user\Desktop\fun-student-master\src\test\java\com\example\student\security\JwtServiceTest.java
+C:\Users\user\Desktop\fun-student-master\src\test\java\com\example\student\service\impl\StudentServiceImplTest.java
+C:\Users\user\Desktop\fun-student-master\src\test\java\com\example\student\service\impl\UserServiceImplTest.java
